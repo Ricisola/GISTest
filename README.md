@@ -12,11 +12,11 @@ Now we start a map...
    
     <div id="mapid"></div>
     var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={pk.eyJ1IjoicmljaXNvbGEiLCJhIjoiY2picGo2YXlvNXMxdjMzbXJsb243YWt3OCJ9.n3x81v5frWq5MG_rVTdk1Q}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
-    accessToken: pk.eyJ1IjoicmljaXNvbGEiLCJhIjoiY2picGo2YXlvNXMxdjMzbXJsb243YWt3OCJ9.n3x81v5frWq5MG_rVTdk1Q 'your.mapbox.access.token'
+    accessToken: pk.eyJ1IjoicmljaXNvbGEiLCJhIjoiY2picGo2YXlvNXMxdjMzbXJsb243YWt3OCJ9.n3x81v5frWq5MG_rVTdk1Q <!--'your.mapbox.access.token'-->
 }).addTo(mymap);
    
     <!-- Make sure you put this AFTER Leaflet's CSS -->
